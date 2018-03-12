@@ -1,2 +1,2 @@
-# malaydataset
-dataset of Malay Tweets
+# AssignmentsAndFYP
+A compilation of past assignments and Final Year Project program.
