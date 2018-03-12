@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> New HTML5 Input Type</title>
+	</head>
+	<p></p>
+	<body>
+		<h1>New HTML5 Input Type</h1>
+		<p><This form demonstrates the new HTML5 Input Type/p>
+		
+		1<meter min="1" max="100" value="65"></meter>100
+		<p></p>
+		<details>
+			<summary>Student Results</summary>
+			<p><mark>Teachers evaluated atudents in an examination 
+			on a scale of 1 to 100. </mark>The average result was 65.</p>
+		</details>
+		
+		
+		<form method="post" action="http://www.mmu.edu.my" autocomplete="on">
+		<p><label>Tel:
+				<input type="Tel" 
+				placeholder= "03-12345678"
+				pattern="\d{3}-\d{8}" autofocus/></label>
+				</p>
+			<p><label>Fruits of the month:
+				<input type="text" 
+				list="fruits"
+				name="fruit" autocomplete="on"/>
+				<datalist id="fruits">
+					<option value="Apple">
+					<option value="Banana">
+					<option value="Cherry">
+					<option value="Durian">
+					<option value="Kiwi">
+				</datalist></label>
+				</p>
+			<p><label>Fav fruits:
+				<input type="text" 
+				list="fruits"
+				name="ffruit" autocomplete="on"/>
+				</label></p>
+		<p></p>
+		<input type="submit" value="Submit form" formnovalidate />
+		<input type="reset" value="Clear form" />
+		
+		</form>
+		
+	</body>
+
+
+
+
+
+
+
+</html>
