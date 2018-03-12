@@ -1,0 +1,14 @@
+body
+{width:100%; margin:0px auto;}
+
+#main_top_box
+{width:100%;}
+
+#main_top_left
+{width:100%; float: left; font-size:20px; font-family:'Roboto', sans-serif; background-color:rgb(66,141,193); color:rgba(255,255,255); margin:0%;}
+
+#main_mid_box
+{width:100%;}
+
+#main_mid_left
+{width:97%; height:30%; float:left; font-size:16px; border:solid 2px black; margin-top:5%; margin-right: 20px; text-align:justify; background-color:rgba(0,0,0,0.5); padding:0px;}
